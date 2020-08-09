@@ -64,6 +64,6 @@ define admin_user (
   }
 
 admin_user {'bob': }
-admin_user {'alias': shell => '/bin/sh'}
+admin_user {'alice': shell => '/bin/sh'}
 #admin_user {'bob': ensure => 'absent'}
 #admin_user {'alice': shell => '/bin/sh', ensure => 'absent' }
